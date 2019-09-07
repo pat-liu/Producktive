@@ -1,0 +1,24 @@
+{
+  "name": "pennapps",
+  "version": "1.0.0",
+  "description": "v1",
+  "main": "1",
+  "scripts": {
+    "test": "yeet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "pennapps"
+  },
+  "keywords": [
+    "producktive"
+  ],
+  "author": "pat liu",
+  "license": "ISC",
+  "dependencies": {
+    "@sweetalert2/themes": "^2.1.0",
+    "express": "^4.17.1",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^8.17.1"
+  }
+}

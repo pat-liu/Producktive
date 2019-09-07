@@ -1,0 +1,39 @@
+{
+    "manifest_version": 2,
+    "name": "Producktive",
+    "version": "1",
+    "browser_action": {
+      "default_icon": "duck.png"
+    },
+
+
+"content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/*"
+      ],
+      "js": ["content.js"]
+    },
+    {
+        "matches": [
+          "https://www.facebook.com/*"
+        ],
+        "js": ["alert.js"]
+      },
+      {
+        "matches": [
+          "https://www.youtube.com/*"
+        ],
+        "js": ["alert2.js"]
+      },
+      {
+        "matches": [
+          "https://www.reddit.com/*"
+        ],
+        "js": ["alert3.js"]
+      }
+      
+  ]
+  
+
+  }
